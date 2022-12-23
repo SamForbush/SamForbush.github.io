@@ -6,7 +6,7 @@
     "email": "forbushs@bc.edu",
     "address": "140 Commonwealth Ave, Chestnut Hill, MA 02467",
     "linkedin": "https://www.linkedin.com/in/sam-forbush-56a8a41a9/",
-    "bio": "Sam Forbush is a student at Boston College. He is a CS major and Math minor, with a primary interest in software development. He graduated from Algonquin Regional High School in 2019 and is expected to graduate from BC in 2023."
+    "bio": "Sam Forbush is a student at Boston College. He is a CS major and Math minor, with a primary interest in software development. He graduated from Algonquin Regional High School in 2019 and will graduate from BC in 2023."
   },
   "news": [
     {
@@ -32,12 +32,12 @@
       "description": "This project, completed in 2019, simulates the distribution of rod cells in the human eye, taking into account the expected proportion of colored rods. It was developed in Ocaml as a part of the Computer Science 1 Honors program at Boston College. As shown, the cells are not completely randomly distributed, as there is approximately even space between any two neighboring cells. This was done to make a more realistic simulation, as the cells in the human eye are also approximately evenly spaced."
     },
     {
-      "id": "cre",
-      "title": "Chinese Room Experiment Game",
-      "symbol": "fas fa-gamepad",
-      "tag": "Research",
-      "pic": "https://cdn.glitch.com/67e672f1-2a4e-41a0-b938-d63b1240b7f0%2FScreen%20Shot%202021-02-07%20at%201.49.56%20PM.png?v=1612758768346",
-      "description": "Currently a work in progress, this game attempts to provide an accurate simulation of the Chinese Room thought experiment proposed by John Searle. While completing puzzles of increasing difficulty, the player gets the chance to explore the main question that the experiment represents: Will computers ever be truly sentient, or are they doomed to only mirror human intelligence from the outside? This project is currently being developed in Unity through a research grant from Rensselaer Polytechnic Institute."
+      "id": "poetry",
+      "title": "Poetry Generation and Evaluation in Python",
+      "symbol": "fa-sharp fa-solid fa-pen",
+      "tag": "Coursework",
+      "pic": "https://github.com/SamForbush/SamForbush.github.io/blob/main/docs/assets/PoetryGenPoster.png",
+      "description": "With partner Dyson Ye, the goal of this project was to generate convincing poetic language from limited data and with little to no supervision. The methods for generation include a charactere level LSTM model and the Hafez model. Along the way, we tested the ability of existing computational evaluators on generated poetry."
     }
     
   ]
