@@ -1,0 +1,228 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: georgia;
+  margin: 2em;
+}
+
+/* titles */
+h2 {
+  font-family: copperplate;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: lightblue;
+  padding: 5px;
+  z-index: -1;
+}
+
+/* Project titles */
+h3 {
+  display: inline;
+}
+
+div {
+  
+}
+
+/* link design */
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: darkblue;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: purple;
+}
+
+a:active {
+  color: black;
+}
+
+nav > a {
+  font-family: copperplate;
+}
+
+/* navigation list */
+
+/* desktop view */
+@media screen and (min-width: 769px) {
+  .row {
+    display: flex;
+  }
+
+  .col-1 {
+    flex-basis: 8.33%;
+  }
+  .col-2 {
+    flex-basis: 16.66%;
+  }
+  .col-3 {
+    flex-basis: 25%;
+  }
+  .col-4 {
+    flex-basis: 33.33%;
+  }
+  .col-5 {
+    flex-basis: 41.66%;
+  }
+  .col-6 {
+    flex-basis: 50%;
+  }
+  .col-7 {
+    flex-basis: 58.33%;
+  }
+  .col-8 {
+    flex-basis: 66.66%;
+  }
+  .col-9 {
+    flex-basis: 75%;
+  }
+  .col-10 {
+    flex-basis: 83.33%;
+  }
+  .col-11 {
+    flex-basis: 91.66%;
+  }
+  .col-12 {
+    flex-basis: 100%;
+  }
+
+  /* images */
+  .pic-project {
+    border-radius: 5%;
+    width: 75%;
+  }
+
+  .pic-profile {
+    border-radius: 10%;
+    width: 75%;
+  }
+  
+  .search input {
+	width:75%;
+  margin:0.5rem 0 0.5rem 0;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: 1px solid #eeeeee;
+}
+  
+  .mobile {
+    display: none;
+  }
+  
+  nav ul {
+  background-color: lightblue;
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  width: 14%;
+  height: 100%;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-family: copperplate;
+  align-items: center;
+  padding: 0;
+  }
+  ul a{
+    margin: 0;
+    font-size: 25px;
+    line-height: 100px;
+    
+  }
+  h1{
+  font-size: 500%;
+  }
+  .container{
+    padding-top: 2%;
+    padding-left: 14%;
+  }
+}
+
+/* smartphone view */
+@media screen and (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  [class*="col"] {
+    flex-basis: 100%;
+  }
+  /* images */
+  .pic-project {
+    border-radius: 5%;
+    width: 100%;
+  }
+
+  .pic-profile {
+    border-radius: 10%;
+    width: 100%;
+  }
+  
+  .desktop {
+    display: none;
+  }
+  nav ul {
+  background-color: lightblue;
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-family: copperplate;
+  font-size: 25px;
+  padding: 5%;
+  z-index: 1;
+}
+  .search input {
+	width:100%;
+  margin:0.5rem 0 0.5rem 0;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: 1px solid #eeeeee;
+}
+  h1{
+  font-size: 50px;
+  }
+  .container{
+    padding-top: 20%;
+  }
+}
+
+/* root container */
+.container {
+  max-width: 1024px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* projects */
+.proj-coursework {
+  display: inline-block;
+  padding: 5px;
+  background-color: pink;
+  border-radius: 5px;
+  border: none;
+}
+
+.proj-research {
+  display: inline-block;
+  padding: 5px;
+  background-color: lightgreen;
+  border-radius: 5px;
+  border: none;
+}
