@@ -6,39 +6,122 @@
     "email": "forbushs@bc.edu",
     "address": "140 Commonwealth Ave, Chestnut Hill, MA 02467",
     "linkedin": "https://www.linkedin.com/in/sam-forbush-56a8a41a9/",
-    "bio": "Sam Forbush is a student at Boston College. He is a CS major and Math minor, with a primary interest in software development. He graduated from Algonquin Regional High School in 2019 and will graduate from BC in 2023."
+    "bio": "Sam Forbush is a student at Boston College. He is a CS major and Math minor, with a primary interest in software development. He graduated from Algonquin Regional High School in 2019 and is expected to graduate from BC in 2023."
+  },
+  "edu": {
+    "school": "Boston College",
+    "date": "May 2023",
+    "major": "Computer Science, B. S.",
+    "minor": "Mathematics",
+    "gpa": "3.87",
+    "deptgpa": "3.90",
+    "progexp": "C, Java, HTML, JS, Python"
   },
   "news": [
     {
-      "title": "Began First Semester at BC",
-      "date": "Aug 28, 2019"
+      "title": "Teaching Assistant: CSCI3353",
+      "date": "Sept 2022 - Current"
     },
     {
-      "title": "Graduated From ARHS",
-      "date": "Spring 2019"
+      "title": "BC Dining Employee",
+      "date": "May 2022 - Aug 2022"
     },
     {
-      "title": "Achieved 2nd Place at ICDC",
-      "date": "Spring 2018"
+      "title": "Teaching Assistant: CSCI2244",
+      "date": "Jan 2022 - May 2022"
+    },
+    {
+      "title": "Cotuit Fresh Market Employee",
+      "date": "June 2021 - Aug 2021"
+    },
+    {
+      "title": "Instacart Shopper",
+      "date": "May 2020 - Aug 2020"
+    },
+    {
+      "title": "Tavern in the Square Expo/Busser",
+      "date": "Dec 2019 - Jan 2020"
+    },
+    {
+      "title": "NE Baseball Complex Field Manager",
+      "date": "Jun 2019 - Aug 2019"
+    }
+  ],
+
+  "courses": [
+    {
+      "title": "Natural Language Processing, CSCI3349",
+      "date": "Fall 2022"
+    },
+    {
+      "title": "Modeling Contagion, CSCI3391",
+      "date": "Fall 2022"
+    },
+    {
+      "title": "Mathematical Modeling, MATH4470",
+      "date": "Fall 2022"
+    },
+    {
+      "title": "Algorithms, CSCI3383",
+      "date": "Spring 2022"
+    },
+    {
+      "title": "Computer Vision, CSCI3343",
+      "date": "Fall 2021"
+    },
+    {
+      "title": "Web App Development, CSCI2254",
+      "date": "Spring 2021"
+    },
+    {
+      "title": "Probability, MATH4426",
+      "date": "Spring 2020"
+    },
+    {
+      "title": "Linear Algebra, MATH2210",
+      "date": "Spring 2020"
+    },
+    {
+      "title": "Multivariable Calculus, MATH2202",
+      "date": "Fall 2019"
     }
   ],
   "projects": [
+    {
+      "id": "website",
+      "title": "Portfolio Website",
+      "symbol": "fab fa-js",
+      "tag": "Coursework",
+      "pic": "https://cdn.glitch.global/67e672f1-2a4e-41a0-b938-d63b1240b7f0/Screen%20Shot%202022-12-30%20at%201.49.26%20PM.png?v=1672426188441",
+      "description": "This ongoing project, which was first completed for Web Application Development, is a portfolio website created using HTML, CSS, and JS through the platform Glitch and hosted on Github pages. It can be easily adjusted and updated due to iterative rendering.",
+      "link": ""
+    },
+    {
+      "id": "poetry",
+      "title": "Generation and Evaluation of Poetic Language",
+      "symbol": "fas fa-pencil-alt",
+      "tag": "Research",
+      "pic": "https://cdn.glitch.global/67e672f1-2a4e-41a0-b938-d63b1240b7f0/PoetryGenPoster.png?v=1671817208562",
+      "description": "With partner Dyson Ye, the goal of this project was to generate convincing poetic language from limited data and with little to no supervision. The methods for generation include a charactere level LSTM model and the Hafez model. Along the way, we tested the ability of existing computational evaluators on generated poetry. Link to full poster:",
+      "link": "https://docs.google.com/presentation/d/18tWk1W407zJJN7z3d2pGTDNiQW_SFQguKhW7-v99kAY/edit?usp=share_link"
+    },
+    {
+      "id": "divest",
+      "title": "Social Contagion of University Divestment",
+      "symbol": "fas fa-search-dollar",
+      "tag": "Research",
+      "pic": "https://cdn.glitch.global/67e672f1-2a4e-41a0-b938-d63b1240b7f0/PredictFutureDivestment.png?v=1671818249563",
+      "description": "This project analyzes the difference between the Apartheid and fossil fuel divestment movements through the lense of social contagion. Complex contagion is also used to measure the differences between university administration \"sensitivity\" to student concerns. Link to full report:",
+      "link": "https://docs.google.com/presentation/d/18tWk1W407zJJN7z3d2pGTDNiQW_SFQguKhW7-v99kAY/edit?usp=share_link"
+    },
     {
       "id": "humaneye",
       "title": "Rod Cell Simulation",
       "symbol": "far fa-eye",
       "tag": "Coursework",
       "pic": "https://cdn.glitch.com/67e672f1-2a4e-41a0-b938-d63b1240b7f0%2FIMG_2592%202.jpg?v=1612758836238",
-      "description": "This project, completed in 2019, simulates the distribution of rod cells in the human eye, taking into account the expected proportion of colored rods. It was developed in Ocaml as a part of the Computer Science 1 Honors program at Boston College. As shown, the cells are not completely randomly distributed, as there is approximately even space between any two neighboring cells. This was done to make a more realistic simulation, as the cells in the human eye are also approximately evenly spaced."
-    },
-    {
-      "id": "poetry",
-      "title": "Poetry Generation and Evaluation in Python",
-      "symbol": "fa-sharp fa-solid fa-pen",
-      "tag": "Coursework",
-      "pic": "https://github.com/SamForbush/SamForbush.github.io/blob/main/docs/assets/PoetryGenPoster.png",
-      "description": "With partner Dyson Ye, the goal of this project was to generate convincing poetic language from limited data and with little to no supervision. The methods for generation include a charactere level LSTM model and the Hafez model. Along the way, we tested the ability of existing computational evaluators on generated poetry."
+      "description": "This project, completed in 2019, simulates the distribution of rod cells in the human eye, taking into account the expected proportion of colored rods. It was developed in Ocaml as a part of the Computer Science 1 Honors program at Boston College. As shown, the cells are not completely randomly distributed, as there is approximately even space between any two neighboring cells. This was done to make a more realistic simulation, as the cells in the human eye are also approximately evenly spaced.",
+      "link": ""
     }
-    
   ]
 }
