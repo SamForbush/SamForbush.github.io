@@ -8,9 +8,10 @@ body {
 /* titles */
 h2 {
   font-family: copperplate;
+  color: white;
   display: inline-block;
   border-radius: 5px;
-  background-color: lightblue;
+  background-color: black;
   padding: 5px;
   z-index: -1;
 }
@@ -20,34 +21,51 @@ h3 {
   display: inline;
 }
 
-div {
-  
-}
-
-/* link design */
 a {
   text-decoration: none;
 }
 
-a:link {
-  color: darkblue;
+nav > ul > a {
+  font-family: copperplate;
+  color: black;
 }
+
+/* link design */
+
+  a.navlink:link {
+    color: white;
+  }
+
+  a.navlink:visited {
+    color: white;
+  }
+
+  a.navlink:hover {
+    color: gray;
+  }
+
+  a.navlink:active {
+    color: white;
+  }
+
+
+
+a:link {
+    color: black;
+  }
 
 a:visited {
-  color: black;
-}
+    color: black;
+  }
 
 a:hover {
-  color: purple;
-}
+    color: gray;
+  }
 
 a:active {
-  color: black;
-}
+    color: black;
+  }
 
-nav > a {
-  font-family: copperplate;
-}
 
 /* navigation list */
 
@@ -104,45 +122,44 @@ nav > a {
     border-radius: 10%;
     width: 75%;
   }
-  
+
   .search input {
-	width:75%;
-  margin:0.5rem 0 0.5rem 0;
-  font-size: 0.9rem;
-  padding: 0.5rem;
-  border-radius: 1rem;
-  border: 1px solid #eeeeee;
-}
-  
+    width: 75%;
+    margin: 0.5rem 0 0.5rem 0;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid #eeeeee;
+  }
+
   .mobile {
     display: none;
   }
-  
+
   nav ul {
-  background-color: lightblue;
-  list-style-type: none;
-  margin: 0;
-  display: flex;
-  width: 14%;
-  height: 100%;
-  flex-direction: column;
-  position: fixed;
-  top: 0;
-  left: 0;
-  font-family: copperplate;
-  align-items: center;
-  padding: 0;
+    background-color: black;
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    width: 14%;
+    height: 100%;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: copperplate;
+    align-items: center;
+    padding: 0;
   }
-  ul a{
+  ul a {
     margin: 0;
     font-size: 25px;
     line-height: 100px;
-    
   }
-  h1{
-  font-size: 500%;
+  h1 {
+    font-size: 500%;
   }
-  .container{
+  .container {
     padding-top: 2%;
     padding-left: 14%;
   }
@@ -168,37 +185,38 @@ nav > a {
     border-radius: 10%;
     width: 100%;
   }
-  
+
   .desktop {
     display: none;
   }
   nav ul {
-  background-color: lightblue;
-  list-style-type: none;
-  margin: 0;
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  font-family: copperplate;
-  font-size: 25px;
-  padding: 5%;
-  z-index: 1;
-}
-  .search input {
-	width:100%;
-  margin:0.5rem 0 0.5rem 0;
-  font-size: 0.9rem;
-  padding: 0.5rem;
-  border-radius: 1rem;
-  border: 1px solid #eeeeee;
-}
-  h1{
-  font-size: 50px;
+    color: white;
+    background-color: black;
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: copperplate;
+    font-size: 25px;
+    padding: 5%;
+    z-index: 1;
   }
-  .container{
+  .search input {
+    width: 100%;
+    margin: 0.5rem 0 0.5rem 0;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid #eeeeee;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  .container {
     padding-top: 20%;
   }
 }
@@ -214,7 +232,7 @@ nav > a {
 .proj-coursework {
   display: inline-block;
   padding: 5px;
-  background-color: pink;
+  background-color: lightgray;
   border-radius: 5px;
   border: none;
 }
@@ -222,7 +240,7 @@ nav > a {
 .proj-research {
   display: inline-block;
   padding: 5px;
-  background-color: lightgreen;
+  background-color: darkgray;
   border-radius: 5px;
   border: none;
 }

@@ -31,9 +31,6 @@ export function renderAbout(about){
       ${about.name}
     </h1>
       </div>
-      <div>
-      ${about.bio}
-      </div>
       </div>
     </section>`;
 }
